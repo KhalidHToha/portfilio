@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Your Name</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-900 scroll-smooth">
+    <!-- Navbar -->
+    <header class="fixed w-full bg-white shadow z-50">
+      <div
+        class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-xl font-bold">Your Name</h1>
+        <nav>
+          <ul class="flex gap-6">
+            <li><a href="#about" class="hover:text-blue-500">About</a></li>
+            <li>
+              <a href="#projects" class="hover:text-blue-500">Projects</a>
+            </li>
+            <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center"
+    >
+      <div>
+        <h2 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Your Name</h2>
+        <p class="text-xl md:text-2xl mb-6">
+          A Passionate Web Developer & Designer
+        </p>
+        <a
+          href="#projects"
+          class="bg-white text-blue-600 px-6 py-3 rounded-full shadow hover:bg-gray-200 transition"
+          >View Projects</a
+        >
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h3 class="text-3xl font-semibold mb-6">About Me</h3>
+        <p class="text-lg text-gray-700">
+          I'm a web developer with experience in building responsive and
+          user-friendly websites using modern technologies like HTML, Tailwind
+          CSS, JavaScript, and more. I love creating intuitive designs and
+          bringing ideas to life on the web.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-semibold text-center mb-10">Projects</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project Card -->
+          <div
+            class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition"
+          >
+            <h4 class="text-xl font-bold mb-2">Project 1</h4>
+            <p class="text-gray-700">
+              Brief description of your project. What tech you used, what
+              problem it solves, etc.
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition"
+          >
+            <h4 class="text-xl font-bold mb-2">Project 2</h4>
+            <p class="text-gray-700">
+              Brief description of another project. You can link to GitHub or
+              live demo.
+            </p>
+          </div>
+          <!-- Add more projects -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h3 class="text-3xl font-semibold mb-6">Contact Me</h3>
+        <p class="mb-6 text-gray-700">
+          Have a project or just want to say hi? Feel free to reach out!
+        </p>
+        <a
+          href="mailto:your.email@example.com"
+          class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition"
+          >Send Email</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-900 text-white text-center">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
